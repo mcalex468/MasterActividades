@@ -1,0 +1,16 @@
+Set-Content -Path .\contenido_nginx\index.html -Value @"
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor con volumen Nginx</title>
+</head>
+
+<body style="font-family: Arial; text-align:center; margin-top:80px;">
+    <h1>Contenido cambiado a tiempo real servido desde un volumen 🎯</h1>
+    <p>Este texto se almacena en tu máquina local y se refleja en el servidor en tiempo real.</p>
+</body>
+
+</html>
+"@
